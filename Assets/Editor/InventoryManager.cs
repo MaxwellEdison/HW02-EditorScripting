@@ -1,6 +1,5 @@
 ﻿using UnityEditor;
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 
@@ -14,46 +13,6 @@ public class InventoryManager : PropertyDrawer
     public ItemManager _itemManager;
     public List<string> _options;
 
-    //public string[] _options = { "hi", "hello", "how are you" };
-    //[MenuItem("Examples/Editor GUILayout Popup usage")]
-    /*    static void Init()
-        {
-            EditorWindow window = GetWindow(typeof(InventoryManager));
-            window.Show();
-        }*/
-
-/*    string[] _choices = new[] { "foo", "foobar" };
-    int _choiceIndex = 0;*/
-
-    /*    public override void OnInspectorGUI()
-        {
-            // Draw the default inspector
-            DrawDefaultInspector();
-            _itemManager.itemDefinition[_choiceIndex].name = _choices[_choiceIndex];
-            _choiceIndex = EditorGUILayout.Popup(_choiceIndex, _choices);
-            // Update the selected choice in the underlying object
-
-            // Save the changes back to the object
-            EditorUtility.SetDirty(target);
-        }*/
-
-/*    public override void OnInspectorGUI()
-    {
-
-        DrawDefaultInspector();
-        GetList();
-
-        index = EditorGUILayout.Popup(index, _options.ToArray());
-
-
-        EditorUtility.SetDirty(target);
-
-*//*        if (GUILayout.Button("Set Item"))
-        {
-            EquipItem();
-        }*//*
-
-    }*/
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
         EditorGUI.BeginProperty(position, label, property);

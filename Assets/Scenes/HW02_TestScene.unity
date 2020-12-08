@@ -640,18 +640,18 @@ MonoBehaviour:
     equippableSlot: 0
     attack: 2
     defense: 1
-    rarity: 1
+    rarity: 2
     goldValue: 3
     currentSlot: 5
   - name: bbbbb
-    equippableSlot: 0
+    equippableSlot: 2
     attack: 2
     defense: 1
     rarity: 1
     goldValue: 3
     currentSlot: 5
   - name: cccccc
-    equippableSlot: 0
+    equippableSlot: 1
     attack: 2
     defense: 1
     rarity: 1
@@ -669,4 +669,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 247d92d727408a74792bc0a29a7564e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _currentlyEquipped: []
+  currentlyEquipped:
+    _numberOfItems: 0
