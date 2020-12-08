@@ -41,6 +41,7 @@ public class ItemProperties
     public int goldValue;
     public CurSlot currentSlot;
 }
+
 public class ItemManager : MonoBehaviour
 {
     public ItemProperties[] itemDefinition;

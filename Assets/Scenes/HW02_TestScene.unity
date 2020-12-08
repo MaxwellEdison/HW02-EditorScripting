@@ -622,37 +622,7 @@ MonoBehaviour:
     name: 
     amount: 1
     unit: 0
-  potionIngredients:
-  - name: 
-    amount: 2
-    unit: 1
-  - name: 
-    amount: 0
-    unit: 0
-  - name: 
-    amount: 0
-    unit: 0
-  - name: 
-    amount: 0
-    unit: 0
-  - name: 
-    amount: 0
-    unit: 0
-  - name: 
-    amount: 0
-    unit: 0
-  - name: 
-    amount: 0
-    unit: 0
-  - name: 
-    amount: 0
-    unit: 0
-  - name: 
-    amount: 0
-    unit: 0
-  - name: 
-    amount: 0
-    unit: 0
+  potionIngredients: []
 --- !u!114 &2030788562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -666,13 +636,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDefinition:
-  - name: 
+  - name: aaaaa
     equippableSlot: 0
-    attack: 0
-    defense: 93
-    rarity: 0
-    goldValue: 0
-    currentSlot: 0
+    attack: 2
+    defense: 1
+    rarity: 1
+    goldValue: 3
+    currentSlot: 5
+  - name: bbbbb
+    equippableSlot: 0
+    attack: 2
+    defense: 1
+    rarity: 1
+    goldValue: 3
+    currentSlot: 5
+  - name: cccccc
+    equippableSlot: 0
+    attack: 2
+    defense: 1
+    rarity: 1
+    goldValue: 3
+    currentSlot: 5
 --- !u!114 &2030788563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,3 +669,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 247d92d727408a74792bc0a29a7564e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _currentlyEquipped: []

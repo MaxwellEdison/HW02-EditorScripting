@@ -1,13 +1,16 @@
-﻿using UnityEditor;
+﻿/*using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
-//[CustomPropertyDrawer(typeof(Inventory))]
+
+[CustomPropertyDrawer(typeof(EquipmentDrawer))]
 [CustomPropertyDrawer(typeof(ItemProperties))]
-public class EquipmentDrawer : PropertyDrawer
+public class EquipmentSubdrawer : PropertyDrawer
 {
+
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
-
         // Using BeginProperty / EndProperty on the parent property means that
         // prefab override logic works on the entire property.
         EditorGUI.BeginProperty(position, label, property);
@@ -42,4 +45,5 @@ public class EquipmentDrawer : PropertyDrawer
 
         EditorGUI.EndProperty();
     }
-}
+
+}*/

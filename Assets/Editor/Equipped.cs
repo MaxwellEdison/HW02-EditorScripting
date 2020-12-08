@@ -1,10 +1,14 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-//[CustomPropertyDrawer(typeof(Inventory))]
-[CustomPropertyDrawer(typeof(ItemProperties))]
-public class EquipmentDrawer : PropertyDrawer
+//[CustomPropertyDrawer(typeof(CurrentlyEquipped))]
+//[CustomPropertyDrawer(typeof(ItemProperties))]
+public class Equipped : EquipmentDrawer
 {
+
+
+    ItemProperties[] thing;
+
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
 
@@ -42,4 +46,14 @@ public class EquipmentDrawer : PropertyDrawer
 
         EditorGUI.EndProperty();
     }
+
+
+
+
+
+
+
+
+
+
 }
